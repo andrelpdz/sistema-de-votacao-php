@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* ######-> MOBILE <-###### */
+body{}
+
+main{}
+
+header{}
+
+
+/*inicio MENU*/
+nav{}
+nav ul{}
+nav ul li{}
+
+div.iconeMenu {
+  display: inline-block;
+  cursor: pointer;
+}
+
+    div.m1, div.m2,  div.m3 {
+        width: 30px;
+        height: 3px;
+        background-color: #693;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    div.ativo div.m1 {
+        -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+        -moz-transform: rotate(-45deg) translate(-6px, 6px);
+        transform: rotate(-45deg) translate(-6px, 6px);
+    }
+
+    div.ativo div.m2 {opacity: 0;}
+
+    div.ativo div.m3 {
+        -webkit-transform: rotate(45deg) translate(-7px, -7px);
+        -moz-transform: rotate(45deg) translate(-7px, -7px);
+        transform: rotate(45deg) translate(-7px, -7px);
+    }
+/*fim MENU*/
+
+section{}
+
+footer{}
+
+/* ######-> TABLET <-###### */
+@media screen and (min-width: 500px) {
+   
+}
+
+/* ######-> SMART TV <-###### */
+@media screen and (min-aspect-ratio: 1920/1080) {
+
+}
